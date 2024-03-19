@@ -1,0 +1,108 @@
+body {
+        background-color: #0FC2C0; /* Change the background color*/
+}
+
+p {
+        font-family: Baskerville; /* Not working for some reason*/
+}
+
+.button {
+        background-color: lightskyblue;
+        border: black;
+        color: lightseagreen;
+        padding: 10px 20px; 
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 5px;
+}
+
+button:hover {
+        background-color: lightblue;
+        color: #D989BD;
+
+}
+
+#Page three {
+        background-color: lightgreen; 
+}
+
+.container {
+        column-width: 250px;
+        column-gap: 20px;
+}
+.card {
+        break-inside: avoid;
+        background-color: rgba(0, 0, 0, 0);
+        border: 2px solid rgb(255, 255, 255);
+        padding: 10px;
+        margin: 0 0 1em 0;
+      }
+
+#special-page {
+        background-color: lightgreen; 
+ 
+    
+      p,
+      ul {
+        border: 2px solid rebeccapurple;
+        padding: .5em;
+      }
+      
+      .block,
+      li {
+        border: 2px solid blue;
+        padding: .5em;
+      }
+      
+      ul {
+        display: flex;
+        list-style: none;
+      }
+      
+      .block {
+        display: block;
+      }
+}
+
+.text-box {
+        border: 2px solid #0eb0cc;  /* Border */
+        background-color: #ffffff; /* Background color */
+        padding: 20px; 
+        margin: 15px;
+        border-radius: 8px;  /* For rounded corners */
+        box-shadow: 5px 5px 10px rgba(0,0,0,0.2); /* Optional box shadow */
+    }
+
+.contact-page {
+        background-image: linear-gradient(to bottom, #D989BD 20%, #BF39B6 40%, #692273 60%, #371640 80%, #0D208C 100%);
+        height: 100vh; /* Make background cover entire viewport */
+      }
+
+.text-box {
+        width: 300px;         /* Set the box width */
+        padding: 20px;        /* Add space between text and border */
+        border: 2px solid blue;  /* Add a visible border */
+        margin: 20px auto;    /* Center the box */
+        background-color: #f0f0f0; /* Light background color */ 
+        border-radius: 5px;   /* Slightly rounded corners */
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+      }
+
+.custom-button {
+        display: inline-block;
+        padding: 15px 25px;
+        background-color: #D989BD; /* Pink color */
+        color: white;
+        text-decoration: none;  /* Remove underline */
+        border: none;          
+        border-radius: 4px;   
+        cursor: pointer;       /* Clickable indication*/
+        font-size: 16px;
+      }
+      
+.custom-button:hover {
+        background-color: #D989BD; /* Pink hover I think */
+      }
+      
